@@ -13,6 +13,20 @@ body {
 }
 
 main {
+  p {
+  font-weight: bolder;
+}
+
+  ol~p {
+  color: rgb(235, 89, 237);
+}
+
+ol>li {
+  color: rgb(9, 195, 237);
+  line-height: 1.4em;
+  font-weight: bold;
+}
+
   background-color: white;
   border-radius: 10px;
   width: 40%;
@@ -37,7 +51,20 @@ h1 {
     column-span: all;
 }
 
-footer{
+a[href] {
+  color: rgb(11, 218, 108);
+  font-weight: 900;
+}
+
+li.programmer {
+  color:rgb(38, 2, 56);
+  font-variant: small-caps;
+}
+
+footer {
+  footer, h1 {
+  color:rgb(98, 2, 4);
+}
   clear: both;
   padding-top: 30px;
 }
