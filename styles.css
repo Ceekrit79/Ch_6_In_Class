@@ -13,25 +13,22 @@ body {
 }
 
 main {
-  p {
-  font-weight: bolder;
-}
-
-  ol~p {
-  color: rgb(235, 89, 237);
-}
-
-ol>li {
-  color: rgb(9, 195, 237);
-  line-height: 1.4em;
-  font-weight: bold;
-}
-
   background-color: white;
   border-radius: 10px;
   width: 40%;
   padding: 15px;
   float: left;
+  p {
+  font-weight: bolder;
+}
+  ol~p {
+  color: rgb(235, 89, 237);
+}
+  ol>li {
+  color: rgb(9, 195, 237);
+  line-height: 1.4em;
+  font-weight: bold;
+}
 }
 
 aside {
@@ -48,7 +45,8 @@ article {
 }
 
 h1 {
-    column-span: all;
+  color:rgb(98, 2, 4);
+  column-span: all;
 }
 
 a[href] {
@@ -62,9 +60,8 @@ li.programmer {
 }
 
 footer {
-  footer, h1 {
   color:rgb(98, 2, 4);
-}
   clear: both;
   padding-top: 30px;
 }
+  
