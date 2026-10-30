@@ -28,6 +28,15 @@ aside {
   float: right;
 }
 
+article {
+    column-count: 4;
+    column-gap: 10px;
+}
+
+h1 {
+    column-span: all;
+}
+
 footer{
   clear: both;
   padding-top: 30px;
