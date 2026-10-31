@@ -39,6 +39,7 @@ h1 {
   color:rgb(98, 2, 4);
   background-color: rgb(61, 233, 8);
   column-span: all;
+  text-align: center;
   border: 10px dotted rgb(95, 103, 248);
   /* all four sides */ 
   padding: 1em;
