@@ -16,19 +16,8 @@ main {
   background-color: rgb(238, 229, 173);
   border-radius: 10px;
   width: 40%;
-  padding: 15px;
+  padding: 20px;
   float: left;
-  p {
-  font-weight: bolder;
-}
-  ol~p {
-  color: rgb(235, 89, 237);
-}
-  ol>li {
-  color: rgb(9, 195, 237);
-  line-height: 1.4em;
-  font-weight: bold;
-}
 }
 
 aside {
@@ -40,23 +29,34 @@ aside {
 }
 
 article {
-    column-count: 4;
-    column-gap: 10px;
+  column-count: 4;
+  column-gap: 10px;
 }
 
 h1 {
   color:rgb(98, 2, 4);
+  background-color: rgb(61, 233, 8);
   column-span: all;
+  border: 10px dotted rgb(95, 103, 248);
+  /* all four sides */ 
+  padding: 1em;
+  /* use absolute measurement for left side */
+  padding-left: 20px; 
+  /* .5em top, 0 right and left, .25em bottom */
+  margin: .5em 0 .25em;
 }
 
-a[href] {
-  color: rgb(11, 218, 108);
-  font-weight: 900;
-}
-
-li.programmer {
-  color:rgb(38, 2, 56);
-  font-variant: small-caps;
+p {
+  color: rgb(244, 127, 246);
+  background-color: rgb(194, 230, 16);
+  font-weight: bolder;
+  border: 5px double rgb(24, 177, 232);
+  /* all four sides */ 
+  padding: 1em;
+  /* use absolute measurement for left side */
+  padding-left: 20px;
+  /* .5em top, 0 right and left, .25em bottom */
+  margin: .5em 0 .25em;
 }
 
 footer {
