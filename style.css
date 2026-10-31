@@ -31,6 +31,8 @@ aside {
 article {
   column-count: 4;
   column-gap: 10px;
+  column-rule: 10px double rgb(3, 3, 153);
+  column-width: auto;
 }
 
 h1 {
