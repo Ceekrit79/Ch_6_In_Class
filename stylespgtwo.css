@@ -1,0 +1,61 @@
+:root {
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(120deg, rgb(253, 128, 44) 0%, rgb(17, 16, 16) 100%);
+}
+
+body {
+    background-color: hsl(352, 97%, 48%);
+    padding: 100px 150px 100px;
+    margin: 100px 200px 100px;
+    border: 5px dotted rgb(84, 10, 245);
+    border-radius: 100px;
+}
+
+section {
+    color: rgb(234, 255, 0); 
+    font-size: 160%; 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 1em; 
+    width: 10em;
+    border: 5px dashed rgb(26, 8, 1); 
+    border-radius: 10px 20px 0 20px; 
+    box-shadow: 3px 3px 4px 4px rgb(78, 135, 3);
+}
+
+article {
+    column-count: 4;
+    column-gap: 35px;
+    column-rule: 10px double rgb(3, 3, 153);
+}
+
+h1 {
+    color:rgb(50, 2, 98);
+    background-color: rgb(61, 233, 8);
+    column-span: all;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    border: 10px dotted rgb(253, 9, 139);
+    padding: 5em;
+    padding-left: 20px; 
+    margin: .5em 0 .25em;
+}
+
+p {
+    color: rgb(255, 255, 6);
+    background-color: rgb(238, 5, 13);
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    border: 10px double rgb(15, 183, 141);
+    padding: 5em;
+    padding-left: 10px;
+    margin: .5em 0 .25em;
+}
+
+footer {
+  color:rgb(98, 2, 4);
+  clear: both;
+  padding-top: 30px;
+}  

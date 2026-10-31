@@ -29,8 +29,10 @@ aside {
 }
 
 article {
-    column-count: 4;
-    column-gap: 10px;
+  column-count: 4;
+  column-gap: 10px;
+  column-rule: 10px double rgb(3, 3, 153);
+  column-width: auto;
 }
 
 h1 {
@@ -65,14 +67,17 @@ ol>li {
   font-weight: bold;
 }
 
-a[href] {
-  color: rgb(11, 218, 108);
-  font-weight: 900;
-}
-
-li.programmer {
-  color:rgb(38, 2, 56);
-  font-variant: small-caps;
+p {
+  color: rgb(244, 127, 246);
+  background-color: rgb(194, 230, 16);
+  font-weight: bolder;
+  border: 5px double rgb(24, 177, 232);
+  /* all four sides */ 
+  padding: 1em;
+  /* use absolute measurement for left side */
+  padding-left: 20px;
+  /* .5em top, 0 right and left, .25em bottom */
+  margin: .5em 0 .25em;
 }
 
 footer {
