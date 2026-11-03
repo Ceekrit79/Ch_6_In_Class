@@ -1,87 +1,36 @@
-:root {
-  height: 100%;
-  font-family:Arial, Helvetica, sans-serif;
-  background: linear-gradient(120deg, rgb(136, 103, 234) 0%, white 100%);
-}
-
 body {
-  background-color: hwb(38 4% 4%);
-  padding: 100px 150px 100px;
-  margin: 100px 200px 100px;
-  border: 10px dashed rgb(101, 242, 62);
-  border-radius: 100px;
-}
-
-main {
-  background-color: rgb(139, 121, 9);
-  border-radius: 10px;
-  width: 40%;
-  padding: 20px;
-  float: left;
-}
-
-aside {
-  background-color: rgb(10, 189, 234);
-  border-radius: 10px;
-  width: 40%;
-  padding: 15px;
-  float: right;
-}
-
-article {
-  column-count: 4;
-  column-gap: 10px;
-  column-rule: 10px double rgb(3, 3, 153);
-  column-width: auto;
+  font-family: Arial, sans-serif;
+  width: 70%;
+  margin: auto;
 }
 
 h1 {
-  color:rgb(234, 57, 60);
-  background-color: rgb(61, 233, 8);
-  column-span: all;
-  border: 10px dotted rgb(95, 103, 248);
-  /* all four sides */ 
-  padding: 1em;
-  /* use absolute measurement for left side */
-  padding-left: 20px; 
-  /* .5em top, 0 right and left, .25em bottom */
-  margin: .5em 0 .25em; 
+  background-color: lightgreen;
+  margin-top: 1em;
+  padding: 1rem;
+  clear: left;
 }
 
-p {
-  color: rgb(244, 127, 246);
-  background-color: rgb(194, 230, 16);
-  font-weight: bolder;
-  border: 5px double rgb(24, 177, 232);
-  /* all four sides */ 
-  padding: 1em;
-  /* use absolute measurement for left side */
-  padding-left: 20px;
-  /* .5em top, 0 right and left, .25em bottom */
-  margin: .5em 0 .25em; 
+nav {
+  background-color: black; 
+} 
+
+ul { 
+  display: flex; list-style-type: none; 
+} 
+
+li { 
+  padding: .5em 1em; 
 }
 
-ol>li {
-  color: rgb(5, 202, 247);
-  line-height: 1.4em;
-  font-weight: bold;
+a {
+  text-decoration: none; color: white;
+} 
+
+#yes{
+  color: blue;
 }
 
-p {
-  color: rgb(244, 127, 246);
-  background-color: rgb(194, 230, 16);
-  font-weight: bolder;
-  border: 5px double rgb(24, 177, 232);
-  /* all four sides */ 
-  padding: 1em;
-  /* use absolute measurement for left side */
-  padding-left: 20px;
-  /* .5em top, 0 right and left, .25em bottom */
-  margin: .5em 0 .25em;
+#top {
+  color: blue;
 }
-
-footer {
-  color:rgb(98, 2, 4);
-  clear: both;
-  padding-top: 30px;
-}  
