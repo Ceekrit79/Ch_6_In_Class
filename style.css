@@ -16,7 +16,7 @@ nav {
 } 
 
 ul { 
-  display:inline; list-style-type:square 
+  display: flex; list-style-type: none; 
 } 
 
 li { 
